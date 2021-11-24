@@ -1,0 +1,125 @@
+body{
+    background-color: #e0dadab0;
+    margin: 0;
+    font-family: cursive;
+}
+
+.array-container {
+    text-align: center;
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+        
+.array-bars {
+  width: 5px;
+  margin: 1.5px;
+  margin-top: 5px;
+}
+
+		
+header {
+  background-color: #6a708b;
+  box-shadow: 0 1px 2px #6a708b;
+}
+.container {
+  padding: 0 60px 0 20px;
+  margin: 0 auto;
+}
+nav {
+  margin:0 0 0 0;
+  overflow: hidden;
+}
+ul {
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+  float: none;
+  color:white;
+}
+nav li {
+  display: inline-block;
+  margin-left: 10px;
+  height: 60px;
+  line-height: 50px;
+  font-size: 18px;
+  color:white;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  position: relative;
+  color:white;
+
+}
+nav a:hover {
+  color : #a0a0a0;
+}
+/*set a 2px bar below the nav a*/
+nav a:after {
+  content: "";
+  width: 0;
+  height: 2px;
+  position: absolute;
+  left: 0;
+  bottom: 10px;
+  background: black;
+  transition: width .5s linear;
+}
+/*the 2px bar only show when hovered*/
+nav a:hover:after {
+  width: 100%;
+}
+
+h3 {
+    font-family: cursive;
+    font-size: 30px;
+    margin: 10px 200px 0px 10px;
+    color: white;
+    float: left;
+    font-weight: 550;
+}
+
+.slidecontainer {
+  width: 100%;
+}
+
+/* The slider */
+.slider {
+  -webkit-appearance: none;  /* Override default CSS styles */
+  appearance: none;
+  width: 100%; 
+  height: 10px; 
+  border-radius :5px;
+  background: white; 
+  outline: black; /* Remove outline */
+  opacity: 0.5; /* Set transparency (for mouse-over effects on hover) */
+  -webkit-transition: 0.5s; /* 0.2 seconds transition on hover */
+  transition: opacity 0.5s;
+  margin-top: 10px;
+}
+
+.slider:hover {
+  opacity: 0.5; 
+}
+
+/* The slider handle */
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none; /* Override default look */
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  border-radius:50%;
+  background: turquoise; /* turquoise background */
+  cursor: pointer; /* Cursor on hover */
+  
+}
+
+.slider::-moz-range-thumb {
+  width: 20px; /* Set a specific slider handle width */
+  height: 20px; /* Slider handle height */
+  background: turquoise; /* Green background */
+  border-radius:50%;
+  cursor: pointer; /* Cursor on hover */
+}
