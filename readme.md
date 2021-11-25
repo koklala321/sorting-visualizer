@@ -1,4 +1,4 @@
-#Sorting Visualizer
+# Sorting Visualizer
 ![Python](https://img.shields.io/badge/Python-blue) ![Django](https://img.shields.io/badge/Django-yellow)
 
 This is a sorting visualizer application create to demonstrate different sorting algorithms in action.
