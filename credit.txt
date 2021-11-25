@@ -1,0 +1,1 @@
+credit to Clément Mihailescu youtube channel for demonstrating sorting visualizer with JavaScript and React, as this project is inspired by it
