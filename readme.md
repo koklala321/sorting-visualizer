@@ -2,4 +2,4 @@
 ![Python](https://img.shields.io/badge/Python-blue) ![Django](https://img.shields.io/badge/Django-yellow)
 
 This is a sorting visualizer application create to demonstrate different sorting algorithms in action.
-To try it out , please visit https://sortingvisualized.herokuapp.com/
+As Heroku no longer provide free tier service , it will migrate to GCP/AWS when  I have time
